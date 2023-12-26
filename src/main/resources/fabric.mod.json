@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fix_mcdr_prefix",
+  "version": "${version}",
+  "name": "Fix MCDR Prefix",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Disy/Fix MCDR Prefix"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/fix_mcdr_prefix/icon.png",
+  "environment": "server",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fix_mcdr_prefix.mixins.json"
+  ],
+  "accessWidener": "fix_mcdr_perfix.server.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": ">=1.20"
+  }
+}
