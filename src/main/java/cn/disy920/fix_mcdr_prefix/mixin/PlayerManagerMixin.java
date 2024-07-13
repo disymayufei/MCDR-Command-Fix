@@ -29,7 +29,7 @@ public class PlayerManagerMixin {
             )
     )
     private MessageType.Parameters redirectedServerLog(MessageType.Parameters params, @Local(argsOnly = true) ServerPlayerEntity sender) {
-        if (params.type() == MessageType.CHAT) {
+        if (params.type().getKey().get() == MessageType.CHAT && sender != null) {
             return MessageType.params(MessageType.CHAT, sender.getRegistryManager(), sender.getName());
         }
         return params;
