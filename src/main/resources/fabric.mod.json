@@ -16,10 +16,9 @@
   "mixins": [
     "fix_mcdr_prefix.mixins.json"
   ],
-  "accessWidener": "fix_mcdr_perfix.server.accesswidener",
   "depends": {
-    "fabricloader": ">=0.14.0",
+    "fabricloader": ">=0.15.0",
     "fabric": "*",
-    "minecraft": ">=1.20"
+    "minecraft": ">=1.21"
   }
 }
