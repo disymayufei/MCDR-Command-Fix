@@ -4,6 +4,7 @@
   "package": "cn.disy920.fix_mcdr_prefix.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityDataObjectMixin",
     "PlayerManagerMixin"
   ],
   "client": [
